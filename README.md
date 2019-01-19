@@ -108,7 +108,7 @@ gatsby new project-name https://github.com/LekoArts/gatsby-starter-prismic
 cd project-name
 ```
 
-## Prismic
+## Setup
 
 You have to know the basics of Prismic's interface in order to be able to make the necessary changes / setup your project accordingly. You can also checkout the document ["Sourcing from Prismic"](https://www.gatsbyjs.org/docs/sourcing-from-prismic/) I wrote for the official Gatsby documentation.
 
@@ -131,7 +131,13 @@ Follow the second and third step (with the respective file from `.prismic`) for 
 
 These are the exact same custom types I used for this starter.
 
-### API key
+### gatsby-config
+
+#### repositoryName
+
+Don't forget to change the default `repositoryName` in the plugin's option. The `repositoryName` is the name you have entered at the creation of the repository (you’ll also find it as the subdomain in the URL)
+
+#### API key
 
 You need to define the API Key for your Prismic repository in `gatsby-config.js` ([Video tutorial](https://www.youtube.com/watch?v=iH0P4KcOeVc)). You can retrieve the key here:
 
