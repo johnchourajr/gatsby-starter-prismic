@@ -18,6 +18,7 @@ module.exports = {
 
   twitter: '@starter_prismicio', // Twitter Username
   facebook: 'gatsby-prismic', // Facebook Site Name
+  googleAnalyticsID: 'UA-47519312-7',
 
   skipNavId: 'reach-skip-nav', // ID for the "Skip to content" a11y feature
 }

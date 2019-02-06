@@ -49,6 +49,12 @@ module.exports = {
         pathToConfigModule: 'config/typography.js',
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: website.googleAnalyticsID,
+      },
+    },
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-manifest',
