@@ -138,6 +138,10 @@ These are the exact same custom types I used for this starter.
 
 Don't forget to change the default `repositoryName` in the plugin's option. The `repositoryName` is the name you have entered at the creation of the repository (you’ll also find it as the subdomain in the URL)
 
+#### lang
+
+If you only have one language in your Prismic repository you should remove the `lang: 'en-gb'` option in the config. If you want to grab multiple languages, you can also remove this line.
+
 #### API key
 
 You need to define the API Key for your Prismic repository in `gatsby-config.js` ([Video tutorial](https://www.youtube.com/watch?v=iH0P4KcOeVc)). You can retrieve the key here:
