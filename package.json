@@ -1,6 +1,7 @@
 {
-  "name": "gatsby-starter-prismicio",
+  "name": "gatsby-starter-prismic",
   "description": "A typography-heavy & light-themed Gatsby Starter which uses the Headless CMS Prismic",
+  "private": true,
   "license": "MIT",
   "version": "1.0.0",
   "author": "LekoArts <hello@lekoarts.de>",
